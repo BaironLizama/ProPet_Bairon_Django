@@ -1,0 +1,194 @@
+
+body{
+    
+    background-color: #aee0dd;
+    
+}
+
+.titulo-p{
+    font-family: 'letra-prin';
+    text-align: center;
+    font-size: 150px;
+}
+@font-face {
+    font-family: 'letra-prin' ;
+    src: url(Alkatra-VariableFont_wght.ttf);
+}
+
+
+
+
+/*footer*/ 
+
+
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 20px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 150px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: auto;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+
+@media  all and ( min-width: 600px){
+    
+    #carousel1{
+        margin-right:150px;
+        margin-left: 150px;
+    
+    }  
+}
+
+/*PESTAÑA NOSOTROS*/
+
+
+
+@font-face {
+    font-family: 'mi letra' ;
+    src: url(SpaceMono-Regular.ttf);
+}
+
+.diseño-bienvenido{
+    font-family: 'mi letra';
+    
+}
+
+
+
+.nuestra-empresa h1{
+    font-weight: cursive;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+h2{
+    font-weight: carolingia;
+    text-align: center;
+}
+
+h3{
+    font-family: cursive;
+    margin: 30px 90px;
+    text-align: center;
+}
+
+.video{
+    width: 100%;
+    
+}
+.container{
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    
+    
+    
+}
+iframe{
+    padding: 5%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/*Pestaña Productos*/
+
+.containerfoto {
+    display: flex;
+    margin: 20px;
+    background-color: #0d2033;
+    padding: 10px;
+    color: azure;
+    justify-content: space-between;
+}
+
+.textof{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container-fluid{
+    font-family:sans-serif;
+   
+}
+.card{
+    margin: 10px;
+    margin-bottom: 12px;
+    
+}
+
+.titulo-api {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+

@@ -1,0 +1,33 @@
+
+ body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+input {
+    float: left;
+    margin-bottom: 10px;
+}
+
+label {
+    clear: both;
+    float: left;
+    width: 150px;
+}
+
+#enviar {
+    clear: both;
+    float: left;
+    width: 150px;
+}
+
+.error-control {
+    border: 1px solid red;
+}
+
+label.error {
+    color: red;
+    width: 250px;
+    font-size: 0.8em;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}

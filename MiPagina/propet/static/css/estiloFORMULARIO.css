@@ -1,0 +1,38 @@
+
+
+label {
+    font-family: cursive;
+  }
+
+label.error {
+    color: red;
+  }  
+ 
+  .btn-enviar {
+    background-color: blue;
+    color: white;
+  }
+  
+  .btn-limpiar {
+    background-color: red;
+    color: white;
+  } 
+  
+  .btn {
+    font-size: 120%;
+    
+    padding-right: 50px;
+    padding-left: 50px;
+    
+  }
+
+  form {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #opcion option {
+    background-color:lightgray;
+  }
+  
+  
